@@ -1,0 +1,321 @@
+
+body
+{
+    font-family: Jost;
+    font-weight: 400;
+
+    max-width: 1280px;
+
+    background-color: #DFDFDF;
+
+    margin: 0 auto; 
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 80px;
+}
+
+#logo
+{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 40px;
+
+    cursor: default;
+}
+
+#hamburger
+{
+    width: 50px;
+    height: 50px;
+
+    cursor: pointer;
+}
+
+.menu 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #fcfcfc;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.menu-content a 
+{
+    font-size: 30px;
+    color: #282828;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-content a:hover 
+{
+    background-color: #f1f1f1;
+}
+
+.menu:hover .menu-content 
+{
+    display: block;
+}
+
+.island
+{
+    max-width: 850px;
+
+    border-radius: 50px;
+
+    background-color: #282828;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+    margin: 25px auto; 
+}
+
+#profile
+{
+    height: 725px;
+
+    display: flex;
+    flex-direction: column;
+
+    max-height: fit-content;
+
+    margin-bottom: 25px;
+}
+
+#bg
+{
+    width: 850px;
+    height: 225px;
+
+    border-radius: 50px 50px 0 0;
+
+    background-color: #9D9D9D;
+}
+
+#pfp
+{
+    width: 275px;
+    height: 275px;
+
+    border-radius: 50%;
+    border: solid #282828 10px;
+
+    background-color: #DFDFDF;
+
+    position: absolute;
+    margin-top: 85px;
+    margin-left: 70px;
+}
+
+.user_name
+{
+    font-size: 60px;
+
+    color: #DFDFDF;
+
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 385px;
+}
+
+.id
+{
+    font-size: 30px;
+
+    color: #9D9D9D;
+    
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 385px;
+}
+
+#line
+{
+    width: 700px;
+    height: 0;
+
+    background-color: #505050;
+    border: solid #505050 1px;
+
+    margin: 205px auto 0 auto;
+}
+
+.description
+{
+    width: 680px;
+
+    font-size: 30px;
+
+    color: #DFDFDF;
+    
+    margin: 25px auto 0 auto;
+    text-align: center;
+}
+
+input
+{
+    font-family: Jost;
+    font-weight: 400;
+    font-size: 45px;
+
+    width: 600px;
+    height: 100px;
+
+    border-radius: 75px;
+
+    color: #DFDFDF;
+    background-color: #9D9D9D;
+    border: none;
+
+    text-align: center;
+
+    transition: 0.15s ease;
+}
+
+input:focus 
+{
+    outline: none;
+    border: solid #DFDFDF 5px;
+}
+
+#back
+{
+    font-size: 40px;
+    text-decoration: none;
+    
+    color: #282828;
+
+    padding: 12px 16px;
+
+    transition: all 0.5s;
+}
+
+  
+#back:hover 
+{
+    padding-left: 25px;
+}
+
+#account
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 90px;
+
+    max-width: 990px;
+
+    font-size: 35px;
+
+    color: #282828;
+    background-color: #DFDFDF;
+
+    padding: 5px 50px;
+}
+
+#account a
+{
+    font-size: 30px;
+}
+
+.info
+{
+    font-size: 30px;
+}
+
+.account_name
+{
+    font-size: 35px;
+
+    margin-right: 10px;
+
+    color: #121212;
+}
+
+.account_id
+{
+    font-size: 35px;
+
+    color: #121212;
+}
+
+
+#button
+{
+    text-decoration: none;
+
+    color: #282828;
+
+    margin: auto 15px;
+}
+
+#button:hover
+{
+    text-decoration: underline;
+}
+
+#create
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-size: 30px;
+
+    margin: 0 auto;
+}
+
+#create_island
+{
+    display: flex;
+    justify-content: center;
+
+    font-size: 35px;
+
+    color: #282828;
+    background-color: #DFDFDF;
+
+    padding: 50px 50px;
+}
+
+#create_island #create_button 
+{
+    font-size: 30px;
+
+    width: 400px;
+    height: 50px;
+
+    color: #282828;
+    background-color: #DFDFDF;
+    
+    border: none;
+}
+
+#create_island #create_button:hover
+{
+   text-decoration: underline;
+}
+
+#create_island input
+{
+    font-size: 35px;
+
+    width: 400px;
+    height: 75px;
+
+    margin: 10px auto;
+}
